@@ -65,6 +65,14 @@ Mi enfoque no se limita al modelado estadístico o a la experimentación en cuad
    - **Ámbito:** Regresión horaria sobre 8,760 instancias meteorológicas de transporte público en Seúl.
    - **Capacidades Demostradas:** Modelado bimodal de horas pico laborales, escalado estándar, pipeline reproducible y despliegue dual API/UI.
 
+7. [**Social Media NLP Moderation Engine (`social-nlp-moderation-engine`)**](https://github.com/miguelbenitez09/social-nlp-moderation-engine) — *v1.0.0*
+   - **Ámbito:** Clasificación y moderación de contenido nocivo (toxicidad, discurso de odio, spam) en Twitter/X, Instagram, Facebook y YouTube.
+   - **Capacidades Demostradas:** Implementación matemática desde cero en NumPy (TF-IDF + Naive Bayes con suavizado de Laplace) vs. Pipeline Scikit-Learn de producción vs. Motor Semántico de Reglas, microservicio REST FastAPI y dashboard Streamlit.
+
+8. [**Agentic Brain Core (`agentic-brain-core`)**](https://github.com/miguelbenitez09/agentic-brain-core) — *v1.0.0*
+   - **Ámbito:** Framework local ligero para orquestación de agentes de IA, gestión de contexto y memoria episódica inmutable (JSONL Event Sourcing).
+   - **Capacidades Demostradas:** Lectores de Markdown con YAML frontmatter, verificación criptográfica SHA-256 de system prompts (*souls*), control de acceso por capacidades RBAC, prevención de comandos destructivos y cola de prioridades para resolución de tareas.
+
 ---
 
 ### B. Arquitecturas de Plataforma y Ecosistemas Privados
@@ -80,6 +88,21 @@ Adicional a mis proyectos de código abierto, he diseñado y estructurado arquit
 
 3. **APS-MAIA (Framework de Seguridad y Auditoría para Sistemas Multiagente):**
    - **Propósito:** Arquitectura de gobernanza para enjambres de agentes de IA: autenticación máquina a máquina (M2M), cifrado de extremo a extremo, guardrails de contención de inyección de prompts, intervención humana en el ciclo (*Human-In-The-Loop - HITL*) y registro inmutable de eventos para respuesta ante incidentes.
+
+---
+
+## 💼 Experiencia Laboral y Práctica
+
+* **Desarrollador Independiente (Data Science · Machine Learning · IA · Automatización)**  
+  *2023 - Actualidad*
+  - Diseño y desarrollo de microservicios REST (FastAPI, Go), scripts de extracción automatizada, dashboards interactivos y flujos reproducibles de datos.
+  - Implementación de pipelines de entrenamiento y validación cruzada con Scikit-Learn, LightGBM y XGBoost; integración de modelos fundacionales mediante MCP.
+  - Aseguramiento de la calidad del software (QA), diseño de suites de pruebas con Pytest y empaquetado desacoplado en contenedores Docker.
+
+* **Soporte Técnico en TI**  
+  *B2C Technologies / Universidad Latina de Panamá · Feb. 2022 - Jun. 2023*
+  - Soporte operativo en migración y validación de servicios y servidores, aprovisionamiento de equipos y continuidad tecnológica.
+  - Diagnóstico sistemático de incidencias de hardware y software, atención a usuarios y documentación técnica de soluciones.
 
 ---
 
